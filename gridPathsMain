@@ -1,0 +1,9 @@
+import numpy as np
+import multiprocessing as mp
+import sys
+
+N = sys.argv[1]
+
+print('Hello, we will attempt to find the total number of non-intersecting \
+unique paths in a square grid of size', str(N))
+
